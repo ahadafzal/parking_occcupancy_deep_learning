@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Drawing on Canvas</title>
+<script>
+
+    function doit() {
+        alert("hi");
+    }
+</script>
+</head>
+<body background="images/parking_lot_1.png">
+    <svg height="723" width="960" >
+        <!-- <polygon points="0,0 20,0 20,20 0,20" style="fill:lime;stroke:purple;stroke-width:1" onclick="doit()"/> -->
+        <!-- <polygon points="500,0 500,75 465,75 465,0" style="fill:red;stroke:purple;stroke-width:1" /> -->
+        <!-- <polygon points="35,355 603,243 814,275 241,672 35,3555" style="fill:rgba(125, 240, 10, 0);stroke:purple;stroke-width:1" /> -->
+        <polygon points="41,358 90,350 136,379 71,396 41,358" style="fill:rgba(125, 240, 10, 0);stroke:rgb(0, 128, 17);stroke-width:1" />
+        <polygon points="103,343 154,332 205,359 163,376 103,343" style="fill:rgba(125, 240, 10, 0);stroke:rgb(0, 128, 17);stroke-width:1" />
+        <polygon points="249,316 284,310 364,330 310,340 249,316" style="fill:rgba(125, 240, 10, 0);stroke:rgb(0, 128, 17);stroke-width:1" />
+        <polygon points="396,411 483,400 646,437 597,470 396,411" style="fill:rgba(125, 240, 10, 0);stroke:rgb(0, 128, 17);stroke-width:1" />
+
+      </svg>
+
+
+
+
+
+
+
+<!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-app.js"></script>
+
+  <!-- Add Firebase products that you want to use -->
+  <!-- <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-auth.js"></script> -->
+  <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-database.js"></script>
+
+  
+
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-analytics.js"></script>
+
+<script>
+    console.log("hi")
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDf4DM6Nr7iSu7baFHwFlJgEG4bhA1aysA",
+    authDomain: "newone-9aa60.firebaseapp.com",
+    databaseURL: "https://newone-9aa60.firebaseio.com",
+    projectId: "newone-9aa60",
+    storageBucket: "newone-9aa60.appspot.com",
+    messagingSenderId: "329427747013",
+    appId: "1:329427747013:web:d241c470ae6d4a83e170ac",
+    measurementId: "G-3LK9R6ZYLX"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+
+//   var database = firebase.database();
+
+
+//    firebase.database().ref('/location/-Lz22NsfD-y4hrz1ama3').on('value', function(snapshot) {
+//   postElement = snapshot.val();
+//   console.log(postElement["slot_details"]["status"]);
+//   document.body.innerHTML = '';
+//   document.write(postElement["slot_details"]["status"]);
+// });
+
+
+console.log(username)
+</script>
+
+
+</body>
+</html>
